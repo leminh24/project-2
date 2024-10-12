@@ -32,6 +32,12 @@ a {
 .btn:hover {
   opacity: 0.9;
 }
+.heading-lv2 {
+  color: #0d1111;
+  font-size: 4.2rem;
+  line-height: 1.34; /* 133.333% */
+  font-weight: 700;
+}
 /* header  */
 .header {
   background-color: #fff;
@@ -275,4 +281,58 @@ a {
   text-align: center;
   font-size: 1rem;
   font-weight: 500;
+}
+/* features  */
+.features {
+  margin-top: 70px;
+}
+.features .main-content {
+  padding: 60px 0;
+  max-width: 1024px;
+}
+.features .body-features .top-title {
+  color: #767e7e;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.features .body-features .heading-lv2 {
+  max-width: 577px;
+  margin-top: 18px;
+}
+.features .body-features .desc {
+  margin-top: 18px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-weight: 400;
+  max-width: 590px;
+}
+.features .body-features .features-list {
+  display: flex;
+  margin-top: 80px;
+  justify-content: space-between;
+}
+.features .body-features .features-list .icon {
+  width: 102px;
+  height: 106px;
+}
+.features .features-list .item-title {
+  margin-top: 26px;
+  color: #0d1111;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.features .item .item-desc {
+  margin-top: 16px;
+  color: #9da6a5;
+  font-size: 1.6rem;
+  line-height: 1.69; /* 168.75% */
+}
+.features .features-list .item:first-child .item-desc {
+  max-width: 168px;
+}
+.features .features-list .item:nth-child(2) .item-desc {
+  max-width: 223px;
+}
+.features .features-list .item:nth-child(3) .item-desc {
+  max-width: 224px;
 }
